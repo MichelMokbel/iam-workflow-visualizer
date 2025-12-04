@@ -1,0 +1,4 @@
+{
+  "name": "IAM Workflow Visualizer",
+  "description": "An interactive diagram visualizing the Identity and Access Management (IAM) lifecycle events, approvals, and technical implementation steps."
+}
