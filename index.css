@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* React Flow base styles override or supplement */
+.react-flow__edge-path {
+  stroke-width: 2;
+  transition: stroke 0.3s ease, stroke-width 0.3s ease;
+}
+
+.react-flow__node {
+  transition: all 0.3s ease;
+}
+
