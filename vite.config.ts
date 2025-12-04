@@ -6,6 +6,6 @@ export default defineConfig(({ command }) => ({
   plugins: [react()],
   base: command === 'build' ? '/iam-workflow-visualizer/' : '/', // very important for GitHub Pages
   build: {
-    outDir: '/', // GitHub Pages will serve from /docs
+    outDir: 'docs', // GitHub Pages will serve from /docs
   },
 }))
